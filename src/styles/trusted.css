@@ -1,0 +1,11 @@
+.companies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: normal;
+  height: 40px;
+  margin: 20px;
+}
+.companies img {
+  /* height: 30pxs; */
+}

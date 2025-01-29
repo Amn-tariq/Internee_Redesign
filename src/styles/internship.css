@@ -1,0 +1,29 @@
+.internships-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  padding: 20px;
+}
+
+.internships-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 20px; /* Spacing between cards */
+  max-width: 1200px; /* Optional: To limit the width */
+}
+
+@media (max-width: 900px) {
+  .internships-grid {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .internships-grid {
+    grid-template-columns: repeat(1, 1fr); /* 1 card per row on mobile */
+  }
+}

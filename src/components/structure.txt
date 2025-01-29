@@ -1,0 +1,72 @@
+Website Structure
+Pages:
+Home Page (10 Sections):
+
+Hero Section
+Trusted by Tech Giants
+About/What is Internee.pk?
+Featured Internship/Courses
+Recent Blogs
+Testimonials (What Students are Saying)
+Task Portal Showcase
+LMS (Learning Management System)
+Job Portal Section
+Footer
+Other Pages (for navigation links):
+
+Internships Page
+Study Programs Page
+Company Collaboration Page
+Contact Us Page
+Sign In/Sign Up Page
+
+
+
+2. Colors and Fonts
+Colors
+Primary Color: #FF6F61 (Orange-Red)
+Secondary Color: #002F34 (Dark Green)
+Accent Color: #F9A825 (Yellowish)
+Background Color: #F4F4F9 (Light Grayish)
+
+rgb(67 167 36 / var(--tw-bg-opacity))
+
+Text Color: #333333 (Dark Gray)
+Fonts
+Primary Font: "Poppins", sans-serif
+Secondary Font: "Roboto", sans-seri
+
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── WhyChooseUs.jsx
+│   ├── Courses.jsx
+│   ├── Internships.jsx
+│   ├── Testimonials.jsx
+│   ├── ContactForm.jsx
+│   └── Common/ (reusable components like buttons, cards)
+├── pages/
+│   ├── Home.jsx
+│   ├── Courses.jsx
+│   ├── Internships.jsx
+│   ├── Blog.jsx
+│   ├── Contact.jsx
+│   └── Auth.jsx
+├── App.js
+├── index.js
+├── assets/ (Images and icons)
+├── styles/
+│   ├── variables.css (colors and font styles)
+│   ├── global.css (global styles)
+│   ├── Header.css
+│   ├── Footer.css
+│   ├── Hero.css
+│   ├── ...
+└── utils/ (e.g., fetching APIs or mock data)
+
+
+
+
+

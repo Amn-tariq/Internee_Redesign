@@ -1,0 +1,51 @@
+/* Hero Section Styles */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  color: #28a745;
+  margin: 10px 0;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.partners {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.partners img {
+  width: 80px;
+  height: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-image img {
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
