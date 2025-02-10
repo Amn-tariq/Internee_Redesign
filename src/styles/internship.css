@@ -6,11 +6,16 @@
   padding: 20px;
 }
 
+h6 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
 .internships-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
   gap: 20px; /* Spacing between cards */
-  max-width: 1200px; /* Optional: To limit the width */
+  /* max-width: 1200px; Optional: To limit the width */
 }
 
 @media (max-width: 900px) {

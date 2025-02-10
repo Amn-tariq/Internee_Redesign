@@ -33,7 +33,7 @@ function Footer() {
 
       <div className="footer-links">
         <div>
-          <p>Company</p>
+          <h6>Company</h6>
           <ul>
             <li>
               <a href="#about">Contact Us</a>
@@ -49,7 +49,7 @@ function Footer() {
       </div>
       <div className="footer-links">
         <div>
-          <p>Help</p>
+          <h6>Help</h6>
           <ul>
             <li>
               <a href="#about">Job Portal</a>
@@ -65,7 +65,7 @@ function Footer() {
       </div>
 
       <div className="newsletter">
-        <p>Subscribe to our newsletter</p>
+        <h6>Subscribe to our newsletter</h6>
         <input
           type="email"
           name="email"
@@ -75,7 +75,7 @@ function Footer() {
         />
         <Button
           text="subscribe"
-          styleClass="butn"
+          styleClass="butn btn-job-portal sub-btn"
           onClick={() => console.log("Subscribed")}
         />
       </div>

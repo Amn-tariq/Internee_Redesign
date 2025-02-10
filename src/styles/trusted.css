@@ -7,5 +7,43 @@
   margin: 20px;
 }
 .companies img {
-  /* height: 30pxs; */
+  margin: 20px;
+  height: 30px;
+}
+
+/* section {
+  padding: 50px;
+} */
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.trusted-section {
+  padding: 50px;
+  margin: 50px;
+  padding-bottom: 0;
+}
+
+.blog-section {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-section img {
+  height: 100px;
+  padding-bottom: 20px;
 }

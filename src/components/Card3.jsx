@@ -9,15 +9,15 @@ function Card3({ t1, t2, t3, img, p1, p2, p3, p4, isReversed }) {
     >
       <div className="w-50 p-3">
         <h4>{t1}</h4>
-        <h1>{t2}</h1>
+        <h2>{t2}</h2>
         <h6>{t3}</h6>
         <div className="row">
-          <div className="col">{p1}</div>
-          <div className="col">{p2}</div>
+          <div className="col p">{p1}</div>
+          <div className="col p">{p2}</div>
         </div>
         <div className="row">
-          <div className="col">{p3}</div>
-          <div className="col">{p4}</div>
+          <div className="col p">{p3}</div>
+          <div className="col p">{p4}</div>
         </div>
       </div>
       <div className="w-50">

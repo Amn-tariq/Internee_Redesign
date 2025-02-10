@@ -1,13 +1,14 @@
 import React from "react";
 import "../styles/navbar.css";
+import lg from "../assets/logo/logo.png";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container container">
         <div className="logo">
-          <img src="/path-to-logo.png" alt="Internee.pk Logo" />
-          <span>Internee.pk</span>
+          <img src={lg} alt="Internee.pk Logo" />
+          {/* <span>Internee.pk</span> */}
         </div>
         <ul className="nav-links">
           <li>

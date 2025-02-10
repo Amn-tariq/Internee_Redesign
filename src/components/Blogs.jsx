@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/blog.css";
+import "../styles/trusted.css";
 import Card2 from "./Card2";
 import b1 from "../assets/b1.jpeg";
 import b2 from "../assets/b2.jpeg";

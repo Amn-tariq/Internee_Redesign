@@ -1,6 +1,6 @@
 import React from "react";
 import Card3 from "./Card3";
-import "../styles/sections.css";
+import "../styles/trusted.css";
 import s1 from "../assets/s1.WEBP";
 import s2 from "../assets/s2.PNG";
 import s3 from "../assets/s3.PNG";
@@ -56,20 +56,22 @@ function Sections() {
   ];
   return (
     <>
-      {sections.map((section, index) => (
-        <Card3
-          key={index}
-          img={section.img}
-          t1={section.t1}
-          t2={section.t2}
-          t3={section.t3}
-          p1={section.p1}
-          p2={section.p2}
-          p3={section.p3}
-          p4={section.p4}
-          isReversed={index % 2 === 1} // Reverse layout for odd-indexed sections
-        />
-      ))}
+      <div className="container">
+        {sections.map((section, index) => (
+          <Card3
+            key={index}
+            img={section.img}
+            t1={section.t1}
+            t2={section.t2}
+            t3={section.t3}
+            p1={section.p1}
+            p2={section.p2}
+            p3={section.p3}
+            p4={section.p4}
+            isReversed={index % 2 === 1} // Reverse layout for odd-indexed sections
+          />
+        ))}
+      </div>
     </>
   );
 }
